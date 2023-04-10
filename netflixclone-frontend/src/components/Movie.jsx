@@ -23,6 +23,8 @@ const Movie = ({ item }) => {
           img: item.backdrop_path
         })
       })
+    } else {
+      alert('Please log in to save a movie')
     }
   }
   return (
@@ -37,7 +39,7 @@ const Movie = ({ item }) => {
           {" "}
           {item?.title}{" "}
         </p>
-        <p>
+        <p onClick={saveShow}>
           {like ? (
             <FaHeart className="absolute top-4 left-4 text-gray-300" />
           ) : (
