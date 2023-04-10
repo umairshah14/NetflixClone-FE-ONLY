@@ -36,7 +36,7 @@ const Login = () => {
             <form onSubmit={handleSubmit} className="w-full flex flex-col py-4">
               <input
                 onChange={(e) => setEmail(e.target.value)}
-                className="p-3 my-2 bg-gray-700 rounded"
+                className="p-3  bg-gray-700 rounded"
                 type="email"
                 placeholder="email"
                 autoComplete="email"
