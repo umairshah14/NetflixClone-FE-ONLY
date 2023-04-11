@@ -39,6 +39,13 @@ const SavedShows = () => {
   return (
     <>
       <h2 className='text-white font-bold md:text-xl p-4'>My Shows</h2>
+
+      if (user?.email) {
+
+    }
+
+ 
+
       <div className='relative flex items-center group'>
         <MdChevronLeft
           onClick={slideLeft}
