@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./components/navbar";
 import { AuthContextProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
